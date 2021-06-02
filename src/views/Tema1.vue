@@ -60,8 +60,76 @@
       .col-lg-10.align-self-center
         figure(style="text-align: -webkit-center;")
           img(src='@/assets/curso/tema1/img2.svg', alt='Atenciones incluidas en el procedimiento', style="width:450px;")
-    
-    hr
+
+    .row.justify-content-center.mb-2
+      .col-lg-12.align-self-center
+        .contenedor-B
+          hr.hr.mx-auto
+          .recuadro_imagen.px-2
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+              <g id="Grupo_55423" data-name="Grupo 55423" transform="translate(-824 -565.363)">
+                <circle id="Elipse_3991" data-name="Elipse 3991" cx="30" cy="30" r="30" transform="translate(824 565.363)" fill="#ff9d1d"/>
+                <path id="Trazado_105149" data-name="Trazado 105149" d="M12.246,31H7.295V15.238L2.432,16.659v-3.75l9.36-3.237h.454Z" transform="translate(845 575.363)" fill="#fff"/>
+              </g>
+            </svg>
+            .row.justify-content-center
+              .col-lg-12.align-self-center
+                h6.mb-4 Valorar integralmente
+                ul.fa-ul
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar el crecimiento y desarrollo (físico, motriz, cognitivo y socioemocional) desde la primera infancia hasta la juventud.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar capacidad funcional en la vejez (Fragilidad, actividades básicas y actividades instrumentales de la vida diaria).
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar estado nutricional y antropométrico.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar las prácticas alimentarias.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar las estructuras dentomaxilofaciales y su funcionalidad.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar la salud auditiva y comunicativa.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar la salud visual.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar la salud sexual (y reproductiva desde la adolescencia)
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar la salud mental, emocional y social
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar la dinámica familiar como apoyo al desarrollo integral.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar el contexto social y las redes de apoyo social y comunitario.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar el desarrollo de la autonomía (en la adolescencia).
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar los sucesos vitales y su influencia en la salud (especialmente desde la adultez).
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar el estado de salud en relación con el trabajo (especialmente desde la adultez).
+
+    .row.justify-content-center.mb-2
+      .col-lg-12.align-self-center
+        .contenedor-B
+          hr.hr.mx-auto
+          .recuadro_imagen.px-2 
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+              <g id="Grupo_55428" data-name="Grupo 55428" transform="translate(-804 -704)">
+                <circle id="Elipse_3992" data-name="Elipse 3992" cx="30" cy="30" r="30" transform="translate(804 704)" fill="#00348d"/>
+                <path id="Trazado_105150" data-name="Trazado 105150" d="M16.187,31H1.3V27.777L8.159,20.57q2.534-2.886,2.534-4.585a3.189,3.189,0,0,0-.6-2.095,2.144,2.144,0,0,0-1.743-.718,2.171,2.171,0,0,0-1.831.959,3.943,3.943,0,0,0-.7,2.4H.864A7,7,0,0,1,1.846,12.9,6.882,6.882,0,0,1,4.57,10.3a8.094,8.094,0,0,1,3.9-.937,7.962,7.962,0,0,1,5.325,1.6,5.7,5.7,0,0,1,1.868,4.585A6.658,6.658,0,0,1,15.19,18a10.76,10.76,0,0,1-1.458,2.5,36.715,36.715,0,0,1-3.186,3.508L7.793,27.191h8.394Z" transform="translate(825 714)" fill="#fff"/>
+              </g>
+            </svg>
+            .row.justify-content-center
+              .col-lg-12.align-self-center
+                h6.mb-4 Identificar y gestionar riesgos y desarrollar atenciones protección
+                ul.fa-ul
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Aplicar, verificar u ordenar pruebas tamiz para detección temprana de alteraciones en la salud.
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Verificar atenciones de protección específica en el marco de la RPMS (esquema de vacunación,<br> suministro de micronutrientes y desparasitación intestinal en primera infancia,<br> atenciones de salud bucal, anticoncepción, entre otros).
+
+
+    .row.justify-content-center.mb-2
+      .col-lg-12.align-self-center
+        .contenedor-B
+          hr.hr.mx-auto
+          .recuadro_imagen.px-2
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+              <g id="Grupo_55425" data-name="Grupo 55425" transform="translate(-824 -765.363)">
+                <circle id="Elipse_3993" data-name="Elipse 3993" cx="30" cy="30" r="30" transform="translate(824 765.363)" fill="#f579a8"/>
+                <path id="Trazado_105151" data-name="Trazado 105151" d="M5.815,18.271H8.145q2.769,0,2.769-2.71a2.343,2.343,0,0,0-.659-1.721,2.5,2.5,0,0,0-1.86-.667,2.676,2.676,0,0,0-1.707.571,1.743,1.743,0,0,0-.725,1.421H1.025a5.053,5.053,0,0,1,.938-3,6.191,6.191,0,0,1,2.6-2.058,8.89,8.89,0,0,1,3.655-.74,8.735,8.735,0,0,1,5.6,1.626,5.405,5.405,0,0,1,2.036,4.468,4.505,4.505,0,0,1-.842,2.6,6,6,0,0,1-2.454,1.985,5.734,5.734,0,0,1,2.666,1.868,4.919,4.919,0,0,1,.967,3.1,5.5,5.5,0,0,1-2.2,4.57,9.12,9.12,0,0,1-5.771,1.714,9.458,9.458,0,0,1-3.889-.8,6.093,6.093,0,0,1-2.717-2.212,5.751,5.751,0,0,1-.923-3.215H5.654a2.223,2.223,0,0,0,.791,1.7,2.793,2.793,0,0,0,1.948.718,2.925,2.925,0,0,0,2.08-.725,2.424,2.424,0,0,0,.776-1.853,2.833,2.833,0,0,0-.806-2.285,3.368,3.368,0,0,0-2.227-.674h-2.4Z" transform="translate(845 775.363)" fill="#fff"/>
+              </g>
+            </svg>
+            .row.justify-content-center
+              .col-lg-12.align-self-center
+                h6.mb-4 Potenciar capacidades
+                ul.fa-ul
+                  li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Procesos de educación para la salud.
+                  
+          hr.hr.mx-auto
 
     #t_1_2.titulo-segundo
       .h4 1.2 Descripción general del procedimiento
