@@ -26,6 +26,19 @@
 
 .lista-ol--cuadro__vineta
   margin-right: 16px !important
+.v-line_container
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 10px
+    width: 3px
+    height: 100%
+    background-color: #f579a8
+    z-index: 0
+
+
 
 .tabs-b__tab__icon
   width: 100px !important

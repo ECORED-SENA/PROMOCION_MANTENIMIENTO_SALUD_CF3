@@ -218,59 +218,60 @@
 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | atenciones complementarias de educación, cultura, sector social – prosperidad social, entre otras. Verificar escolaridad o escenarios de cuidado para los niños y las niñas. Definir atenciones a la familia.
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | verificar o canalizar a atenciones en el marco de la RPMS. . En caso de tener algún hallazgo o en caso de tener alguna condición asociada a mayor riesgo, verificar la atención por el profesional de pediatría. Importante verificar que al niño o niña se le haya realizado el tamizaje auditivo neonatal, en caso contrario ordenarlo para su realización en los primeros tres meses de vida, verificar resultados de los demás tamizajes. Importante verificar atención para la promoción y apoyo a la lactancia materna en el primer mes. Recordar desparasitación intestinal, fortificación casera con micronutrientes (ciclo cada 6 meses – niños y niñas entre 6 y 23 meses de edad), suplementación con hierro y vitamina A (24 a 59 meses de edad). Suplementación con hierro en lactantes con riesgo y prueba de hemoglobina, si se identifica riesgo. Vacunación de acuerdo a esquema. Tener presente la valoración y atenciones de salud bucal. Aclarar cuando se proyecta la siguiente consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            p 
-              strong Información en Salud:
-            |
-            .row
-              .col-auto
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
-                    .anexo__texto
-                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+        .v-line_container  
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | atenciones complementarias de educación, cultura, sector social – prosperidad social, entre otras. Verificar escolaridad o escenarios de cuidado para los niños y las niñas. Definir atenciones a la familia.
               
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Remitir a intervenciones colectivas  
-              | del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Educación para la Salud: 
-              | incluye la canalización a escenario de educación grupal para la salud (capacidades para el cuidado de la salud, la crianza promotora del desarrollo, alimentación y nutrición; así como identificación de signos de alarma). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | verificar o canalizar a atenciones en el marco de la RPMS. . En caso de tener algún hallazgo o en caso de tener alguna condición asociada a mayor riesgo, verificar la atención por el profesional de pediatría. Importante verificar que al niño o niña se le haya realizado el tamizaje auditivo neonatal, en caso contrario ordenarlo para su realización en los primeros tres meses de vida, verificar resultados de los demás tamizajes. Importante verificar atención para la promoción y apoyo a la lactancia materna en el primer mes. Recordar desparasitación intestinal, fortificación casera con micronutrientes (ciclo cada 6 meses – niños y niñas entre 6 y 23 meses de edad), suplementación con hierro y vitamina A (24 a 59 meses de edad). Suplementación con hierro en lactantes con riesgo y prueba de hemoglobina, si se identifica riesgo. Vacunación de acuerdo a esquema. Tener presente la valoración y atenciones de salud bucal. Aclarar cuando se proyecta la siguiente consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              p 
+                strong Información en Salud:
+              |
+              .row
+                .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                      .anexo__texto
+                        p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Remitir a intervenciones colectivas  
+                | del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Educación para la Salud: 
+                | incluye la canalización a escenario de educación grupal para la salud (capacidades para el cuidado de la salud, la crianza promotora del desarrollo, alimentación y nutrición; así como identificación de signos de alarma). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales.
 
     .h4.mb-4 Instrumentos, insumos y dispositivos primera infancia
 
@@ -449,57 +450,58 @@
     h4.mb-5 Plan de cuidado infancia 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | Atenciones complementarias de educación, cultura, sector social – prosperidad social, entre otras. Verificar escolaridad. Definir atenciones a la familia. 
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | Verificar o canalizar a atenciones en el marco de la RPMS. Importante realizar tamizaje de anemia en niñas una vez entre los 10 y los 13 años; iniciar vacunación con VPH (Virus del Papiloma Humano) a los 9 años y Td (Toxoide Tetánico y Diftérico del adulto) a los 10 años (según antecedente vacunal). Tener presente la valoración y atenciones de salud bucal. Aclarar cuando se proyecta la siguiente consulta. 
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            p 
-              strong Información en Salud:
-            |
-            .row
-              .col-auto
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
-                    .anexo__texto
-                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+        .v-line_container  
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | Atenciones complementarias de educación, cultura, sector social – prosperidad social, entre otras. Verificar escolaridad. Definir atenciones a la familia. 
               
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              |Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              |Educación para la salud incluye la canalización a un escenario de educación grupal para la salud (capacidades de cuidado para promover la salud y el desarrollo, alimentación y nutrición, capacidades socioemocionales y afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | Verificar o canalizar a atenciones en el marco de la RPMS. Importante realizar tamizaje de anemia en niñas una vez entre los 10 y los 13 años; iniciar vacunación con VPH (Virus del Papiloma Humano) a los 9 años y Td (Toxoide Tetánico y Diftérico del adulto) a los 10 años (según antecedente vacunal). Tener presente la valoración y atenciones de salud bucal. Aclarar cuando se proyecta la siguiente consulta. 
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              p 
+                strong Información en Salud:
+              |
+              .row
+                .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                      .anexo__texto
+                        p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                |Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                |Educación para la salud incluye la canalización a un escenario de educación grupal para la salud (capacidades de cuidado para promover la salud y el desarrollo, alimentación y nutrición, capacidades socioemocionales y afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales.
 
     .h4.mb-4 Instrumentos, insumos y dispositivos infancia
 
@@ -691,57 +693,58 @@
     h4.mb-5 Plan de cuidado infancia 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | Atenciones complementarias de educación en adolescentes desescolarizados, apoyo alimentario, transferencias monetarias condicionadas, prevención y atención del trabajo infantil, oferta de ocio y recreación, entre otros. Definir atenciones a la familia.
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Importante realizar tamizaje de anemia en niñas una vez entre los 10 y los 13 años y luego una vez entre los 14 y los 17 años. Vacunación con VPH (Vacuna Papiloma Humano) niñas entre 12 a 17 años y Td (Toxoide Tetánico y Diftérico del adulto) según antecedente vacunal. Consulta de anticoncepción cuando el adolescente presenta prácticas sexuales coitales sin uso de anticoncepción o tienen intención o riesgo de inicio de relaciones sexuales. De preferencia esta consulta debe realizarse de forma inmediata a este procedimiento (Nota: menores de 14 años). Verificar tamizajes en caso de relaciones sexuales sin protección para VIH/sida y Sífilis. Test de embarazo en caso de sospecha. Tener presente la valoración y atenciones de salud bucal. Aclarar para cuando se proyecta la siguiente consulta. 
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            p 
-              strong Información en Salud:
-            |
-            .row
-              .col-auto
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
-                    .anexo__texto
-                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+        .v-line_container  
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | Atenciones complementarias de educación en adolescentes desescolarizados, apoyo alimentario, transferencias monetarias condicionadas, prevención y atención del trabajo infantil, oferta de ocio y recreación, entre otros. Definir atenciones a la familia.
               
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades de cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, cesación de tabaco en adolescentes con tabaquismo o exposición al humo del tabaco, habilidades para la vida, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y el afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, preocupaciones por su imagen corporal o peso, entre otras).  Considerar en estos ciclos, incorporar sesiones de trabajo con las familias o ubicar atenciones dirigidas a la familia específicamente, de acuerdo a los hallazgos.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Importante realizar tamizaje de anemia en niñas una vez entre los 10 y los 13 años y luego una vez entre los 14 y los 17 años. Vacunación con VPH (Vacuna Papiloma Humano) niñas entre 12 a 17 años y Td (Toxoide Tetánico y Diftérico del adulto) según antecedente vacunal. Consulta de anticoncepción cuando el adolescente presenta prácticas sexuales coitales sin uso de anticoncepción o tienen intención o riesgo de inicio de relaciones sexuales. De preferencia esta consulta debe realizarse de forma inmediata a este procedimiento (Nota: menores de 14 años). Verificar tamizajes en caso de relaciones sexuales sin protección para VIH/sida y Sífilis. Test de embarazo en caso de sospecha. Tener presente la valoración y atenciones de salud bucal. Aclarar para cuando se proyecta la siguiente consulta. 
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              p 
+                strong Información en Salud:
+              |
+              .row
+                .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                      .anexo__texto
+                        p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades de cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, cesación de tabaco en adolescentes con tabaquismo o exposición al humo del tabaco, habilidades para la vida, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y el afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, preocupaciones por su imagen corporal o peso, entre otras).  Considerar en estos ciclos, incorporar sesiones de trabajo con las familias o ubicar atenciones dirigidas a la familia específicamente, de acuerdo a los hallazgos.
 
     .h4.mb-4 Instrumentos, insumos y dispositivos en la adolescencia
 
@@ -940,57 +943,58 @@
     h4.mb-5 Plan de cuidado juventud 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | Atenciones complementarias de cultura, deporte, recreación, educación, búsqueda de empleo, programas de apoyo alimentario, entre otras. Promover y facilitar la participación de los jóvenes. Definir atenciones a la familia. 
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Ofrecer consulta preconcepcional y de orientación para la anticoncepción, de preferencia esta consulta debe realizarse de forma inmediata a este procedimiento. Tener presenta la valoración de salud bucal. Verificar vacunación en mujeres, Td (Toxoide Tetánico y Diftérico del adulto), según antecedente vacunal. Tamizaje de cuello uterino (citología) . Paraclínicos para tamizaje de riesgo cardiovascular si se identifica riesgo : glicemia basal, perfil lipídico, creatinina, uroanálisis según clasificación de riesgo. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a las personas que recibieron transfusiones de sangre antes de 1996 en Colombia. Aclarar para cuando se proyecta la siguiente consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            p 
-              strong Información en Salud:
-            |
-            .row
-              .col-auto
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
-                    .anexo__texto
-                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+        .v-line_container  
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | Atenciones complementarias de cultura, deporte, recreación, educación, búsqueda de empleo, programas de apoyo alimentario, entre otras. Promover y facilitar la participación de los jóvenes. Definir atenciones a la familia. 
               
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades de cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, cesación de tabaco en jóvenes con tabaquismo o exposición al humo del tabaco, habilidades para la vida, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y el afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, preocupaciones por su imagen corporal o peso, entre otras).
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Ofrecer consulta preconcepcional y de orientación para la anticoncepción, de preferencia esta consulta debe realizarse de forma inmediata a este procedimiento. Tener presenta la valoración de salud bucal. Verificar vacunación en mujeres, Td (Toxoide Tetánico y Diftérico del adulto), según antecedente vacunal. Tamizaje de cuello uterino (citología) . Paraclínicos para tamizaje de riesgo cardiovascular si se identifica riesgo : glicemia basal, perfil lipídico, creatinina, uroanálisis según clasificación de riesgo. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a las personas que recibieron transfusiones de sangre antes de 1996 en Colombia. Aclarar para cuando se proyecta la siguiente consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              p 
+                strong Información en Salud:
+              |
+              .row
+                .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                      .anexo__texto
+                        p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades de cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, cesación de tabaco en jóvenes con tabaquismo o exposición al humo del tabaco, habilidades para la vida, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y el afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, preocupaciones por su imagen corporal o peso, entre otras).
 
     .h4.mb-4 Instrumentos, insumos y dispositivos en la juventud
 
@@ -1176,57 +1180,58 @@
     h4.mb-5 Plan de cuidado adultez 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | Atenciones complementarias de cultura, deporte, recreación, educación, búsqueda de empleo, programas de apoyo alimentario, atención a víctimas, entre otras. Definir atenciones a la familia. 
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Ofrecer consulta preconcepcional y de orientación para la anticoncepción, de preferencia esta consulta debe realizarse de forma inmediata a este procedimiento. Tener presente la valoración y atenciones de salud bucal. Verificar vacunación en mujeres, Td (Toxoide Tetánico y Diftérico del adulto), según antecedente vacunal, tamizaje para detección temprana de riesgo cardiovascular, cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Tamizaje de riesgo cardiovascular cada 5 años: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a las personas que recibieron transfusiones de sangre antes de 1996 en Colombia. Aclarar para cuando se proyecta siguiente la consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            p 
-              strong Información en Salud:
-            |
-            .row
-              .col-auto
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
-                    .anexo__texto
-                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+        .v-line_container  
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | Atenciones complementarias de cultura, deporte, recreación, educación, búsqueda de empleo, programas de apoyo alimentario, atención a víctimas, entre otras. Definir atenciones a la familia. 
               
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades para el cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, tabaquismo, entre otras).
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Ofrecer consulta preconcepcional y de orientación para la anticoncepción, de preferencia esta consulta debe realizarse de forma inmediata a este procedimiento. Tener presente la valoración y atenciones de salud bucal. Verificar vacunación en mujeres, Td (Toxoide Tetánico y Diftérico del adulto), según antecedente vacunal, tamizaje para detección temprana de riesgo cardiovascular, cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Tamizaje de riesgo cardiovascular cada 5 años: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a las personas que recibieron transfusiones de sangre antes de 1996 en Colombia. Aclarar para cuando se proyecta siguiente la consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              p 
+                strong Información en Salud:
+              |
+              .row
+                .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                      .anexo__texto
+                        p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades para el cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, tabaquismo, entre otras).
 
     .h4.mb-4 Instrumentos, insumos y dispositivos en la adultez
 
@@ -1474,55 +1479,56 @@
     h4.mb-5 Plan de cuidado vejez 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | Atenciones complementarias de instituciones de cuidado como centros día, cultura, programas de apoyo alimentario o de subsidio al adulto mayor, entre otras. Definir atenciones a la familia.
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | Verificar o canalizar atenciones en el marco de la RPMS. Tener presente la valoración y atenciones de salud bucal. Verificación anual contra influenza. Tamizaje para cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Tamizaje de riesgo cardiovascular y metabólico cada 5 años: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a personas mayor de 50 años una vez en la vida. Aclarar para cuando se proyecta la siguiente consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            strong Información en Salud:
-            .row
-              .col-auto
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
-                    .anexo__texto
-                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+        .v-line_container
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | Atenciones complementarias de instituciones de cuidado como centros día, cultura, programas de apoyo alimentario o de subsidio al adulto mayor, entre otras. Definir atenciones a la familia.
               
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              | Educación para la salud incluye la canalización a ciclo de entrenamiento cognitivo. En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, poco apoyo familiar o social, baja autoestima, experiencias negativas en relación con la vivencia de la sexualidad asociado a cultura negativa del envejecimiento, compromiso de la movilidad o la autonomía, riesgo de desprotección social, polifarmacia, alteraciones del sueño, tabaquismo, entre otras).
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | Verificar o canalizar atenciones en el marco de la RPMS. Tener presente la valoración y atenciones de salud bucal. Verificación anual contra influenza. Tamizaje para cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Tamizaje de riesgo cardiovascular y metabólico cada 5 años: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a personas mayor de 50 años una vez en la vida. Aclarar para cuando se proyecta la siguiente consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              strong Información en Salud:
+              .row
+                .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                      .anexo__texto
+                        p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                | Educación para la salud incluye la canalización a ciclo de entrenamiento cognitivo. En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, poco apoyo familiar o social, baja autoestima, experiencias negativas en relación con la vivencia de la sexualidad asociado a cultura negativa del envejecimiento, compromiso de la movilidad o la autonomía, riesgo de desprotección social, polifarmacia, alteraciones del sueño, tabaquismo, entre otras).
 
     .h4.mb-4 Instrumentos, insumos y dispositivos en la vejez
 
