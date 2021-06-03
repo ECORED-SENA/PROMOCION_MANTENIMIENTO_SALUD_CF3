@@ -775,12 +775,792 @@
                         li
                           i.fas.fa-check
                           | Test de Tanner y Valoración de los derechos sexuales y reproductivos.
-                        li
+                        li(style="text-align:left;")
                           i.fas.fa-check
-                          | RQC (tamizaje de alteraciones de salud mental – adolescentes hasta los 15 años); SRQ Cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental). Test ASSIST (Smoking and Substance Involvement Screening), en caso de sospecha de consumo de sustancias psicoactivas y tabaco; Test AUDIT (Alcohol Use Disorders Identification Test), en caso de sospecha de consumo problemático de alcohol.
+                          |RQC (tamizaje de alteraciones de salud mental – adolescentes hasta los 15 años); 
+                          |SRQ Cuestionario de auto reporte(personas desde los 16 años para detectar alteraciones de salud mental). 
+                          
+                        li(style="text-align:left;")
+                          i.fas.fa-check
+                          |Test ASSIST (Smoking and Substance Involvement Screening), en caso de sospecha de consumo de sustancias psicoactivas y tabaco; Test AUDIT (Alcohol Use Disorders Identification Test), en caso de sospecha de consumo problemático de alcohol.
                         li
                           i.fas.fa-check
                           | Valoración de la identidad y Valoración de la autonomía.
+              tr
+                th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8;") Insumos y materiales para examen físico pediátrico:
+              tr
+                td(colspan='4',style="font-weight: normal; font-size: 16px;background-color:#f6f6f6") Fonendoscopio equipo de órganos, tensiómetro, cinta métrica, pulsioxímetro, optotipos morfoscópicos o angulares para agudeza visual balanza y tallímetro.
+
+
+
+
+
+
+
+
+
+    #t_2_4.titulo-segundo
+      .h2 2.4 Juventud
+
+    p.mb-4 #[strong La población sujeto son] jóvenes de 18 a 28 años, 11 meses y 29 días.
+
+    p.mb-4 En la juventud el individuo consolida tanto su desarrollo biológico como su proyecto de vida, se realiza una transición relacionada con la mayoría de edad que implica la vinculación al mercado laboral o la continuación de estudios de formación técnica o profesional. Cobran mayor relevancia la formación de estilos de vida que definirán el riesgo de desarrollar enfermedades no transmisibles en momentos posteriores de su vida. El riesgo de consumo abusivo de alcohol y sustancias psicoactivas se incrementa. También es una etapa en la que se inicia la conformación de la nueva familia.
+
+    figure.mb-5
+      img(src='@/assets/curso/tema2/img1d.svg', alt='población sujeta')
+
+    p.mb-5 Esta atención se realizará a través de una consulta por profesionales en medicina general o medicina familiar de acuerdo con lo contemplado en el esquema de intervenciones/atenciones en salud individuales, definido en el lineamiento técnico y operativo de la RPMS. Es muy importante para la valoración en este momento de curso de vida, contar con capacidades para valorar integralmente y apoyar el ejercicio de los derechos sexuales y reproductivos, sospecha de embarazo, anticoncepción, ITS-VIH-SIDA, diversas formas de violencia, salud mental, prevención del suicidio, prevención del consumo de alcohol, prevención del consumo de tabaco y cesación del consumo de tabaco y drogas, aspectos bioéticos y legales en la atención de joven, manejo para la intervención de grupos específicos en situación de vulnerabilidad (diversidad sexual, discapacidad, indígenas, migrantes, infractores de ley), donde el abordaje articulado a otros sectores y otras ofertas es esencial y donde el trabajo comunitario – colectivo propicia el fortalecimiento del liderazgo y participación juvenil, entre otros.
+
+    .h4.mb-4 Anamnesis juventud
+    p.mb-5 Se recomienda hacer énfasis en: 
+
+    .row.justify-content-center.mb-4
+      .col-lg-10.alig-self-center
+        PasosA.color-acento-contenido.mb-5(tipo='n')
+          .row
+            //1
+            .col-md-11.mb-4.mb-md-0
+              p Verificar la realización y los resultados de las pruebas de tamizaje para detección temprana de riesgo cardiovascular y de cáncer de cuello uterino. Gestionar previamente para contar con el resultado.
+
+
+          .row
+            //2
+            .col-md-11.mb-4.mb-md-0
+              p Antecedentes familiares, especialmente alteraciones hereditarias, así como trastornos o problemas de salud mental y consumo de SPA y alcohol propio y en la familia y exposición a violencias.
+
+          .row
+            //3
+            .col-md-11.mb-4.mb-md-0
+              p Desarrollo, aprendizaje y vida laboral: desempeño académico, rastrear antecedente de trabajo infantil y/o adolescente. Tipo de labor, carga laboral actual, exposición a riesgos.
+
+          .row
+            //4
+            .col-md-11.mb-4.mb-md-0
+              p Consumo y hábitos alimentarios, especialmente patrón de comidas, tipo de alimentos y “dietas”.
+
+          .row
+            //5
+            .col-md-11.mb-4.mb-md-0
+              p Rutinas y hábitos: sueño, actividad física, uso de tiempo libre, actividad física, manejo del estrés y situaciones de alta tensión, práctica frecuente del autoexamen de seno y autoexamen de testículo.
+
+          .row
+            //6
+            .col-md-11.mb-4.mb-md-0
+              p Valoración de la dinámica familiar. APGAR familiar - Familiograma.
+
+          .row
+            //7
+            .col-md-11.mb-4.mb-md-0
+              p Condiciones de vida, del contexto social y las redes de apoyo. Ecomapa
+
+          .row
+            //8
+            .col-md-11.mb-4.mb-md-0
+              p Avance en los compromisos acordados en sesiones de educación individual previas. Preocupaciones de salud. 
+          
+          .row
+            //9
+            .col-md-11.mb-4.mb-md-0
+              p Reconocimiento y ejercicio de Derechos Sexuales y Reproductivos y vivencia de la sexualidad. Acompañamiento y derivación en proceso de orientación sexual e identidad de género y vivencia del mismo.
+
+    .h4.mb-4 Examen físico completo en la juventud  
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Signos vitales y examen físico completo.
+              p.mb-2 Incluyendo la valoración de las mamas (inspeccionar simetría, contorno o forma de la misma, el color, los pezones y la areola); areola);identificar curvaturas anormales en tórax; así como identificar lesiones o alteraciones de la piel, heridas o hematomas que permitan identificar posibles traumas o lesiones por exposición al sol tipo queratosis actínicas, la cual es relevante buscarlas por ser premalignas y alteraciones en la sensibilidad (hipostesia o anestesia), las cuales son características de enfermedad de Hansen. En el caso de que la persona se encuentre con limitaciones de movilidad deben ser evaluadas las áreas de presión. Realizar pruebas para revisar insuficiencia venosa en miembros inferiores y la funcionalidad de las articulaciones.
+    
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración del estado nutricional y seguimiento a los parámetros antropométricos
+              p.mb-2 Además, identificar y detectar casos de ingesta excesiva o deficiente de calorías o nutrientes a partir de la alimentación.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración del riesgo cardiovascular y metabólico
+              p.mb-2 Los instrumentos que permiten esto se encuentran condensados en la aplicación “Conoce tu riesgo” En caso de identificar riesgo cardiovascular medio, alto, muy alto o riesgo moderado y alto de diabetes, deberá ordenar los siguientes exámenes como insumo para realizar la gestión de riesgo respectiva: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis; según los resultados de los exámenes se debe derivar a la ruta integral de atención en salud para la población con riesgo o presencia de alteraciones cardio cerebro vascular metabólica.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud sexual y reproductiva
+              p.mb-2 Identificar cambios físicos y psicológicos propios del momento que afectan la participación o la satisfacción en las actividades sexuales (signos y síntomas relacionados con la funcionalidad sexual, orientación sexual, deseo, excitación, lubricación, orgasmo, satisfacción, erección, eyaculación, dolor). Evaluar las condiciones médicas que afectan la salud sexual incluyendo la depresión, la enfermedad cardíaca, enfermedad cerebrovascular, EPOC y diabetes. Mujeres con intención reproductiva o en gestación, deben derivarse a la Ruta Materno Perinatal.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud visual
+              p.mb-2 Se puede desarrollar mediante cuatro técnicas: oftalmoscopia a distancia, directa, e indirecta y la biomicroscopia con lentes accesorias. Si la agudeza visual se encuentra reducida por debajo de 20/50, debe derivarse a una consulta resolutiva por optometría para confirmar o descartar un componente refractivo
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud auditiva y comunicativa
+              p.mb-2 Incluye la evaluación del estado del oído y su integridad. Pueden incorporarse dos preguntas de percepción: ¿Tiene usted o ha tenido algún problema en el oído? y ¿Cree usted que escucha bien?.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud bucal
+              p.mb-2 Realizar el reconocimiento del estado de las estructuras dentomaxilofaciales y de su funcionalidad en los procesos de masticación, deglución, habla, fonación, socialización, afecto y autoestima, entre otras.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-5
+          img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud mental
+              p.mb-2 Incluye el examen mental (pensamiento – lógica, contenido y velocidad, lenguaje – coherencia, fluidez-, afecto y estado de ánimo, percepciones, sensorio – orientación, concentración, memoria, cálculos, razonamiento abstracto-, introspección y juicio); y la valoración de las estrategias de afrontamiento frente a sucesos vitales (normativos y no normativos) con el fin de prevenir alteraciones en la salud e identificar factores de riesgo para trastornos de comportamiento, problemas y trastornos mentales. Apoyarse para la detección de alteraciones en los instrumentos disponibles: SRQ - Cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental); Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En caso que la persona asuma un rol de cuidador y exista la sospecha de sobrecarga del cuidador (Escala de Zarit) – así mismo considerar en caso de cuidadores de personas con dependencia funcional.
+    
+    h4.mb-5 Plan de cuidado juventud 
+    .row.justify-content-center.mb-4
+      .col-lg-11.align-self-center
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span S
+            p
+              strong Servicios sociales y atenciones a la familia: 
+              | Atenciones complementarias de cultura, deporte, recreación, educación, búsqueda de empleo, programas de apoyo alimentario, entre otras. Promover y facilitar la participación de los jóvenes. Definir atenciones a la familia. 
+            
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              strong Enfermedad: 
+              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              strong Ruta de Promoción y Mantenimiento de la Salud: 
+              | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Ofrecer consulta preconcepcional y de orientación para la anticoncepción, de preferencia esta consulta debe realizarse de forma inmediata a este procedimiento. Tener presenta la valoración de salud bucal. Verificar vacunación en mujeres, Td (Toxoide Tetánico y Diftérico del adulto), según antecedente vacunal. Tamizaje de cuello uterino (citología) . Paraclínicos para tamizaje de riesgo cardiovascular si se identifica riesgo : glicemia basal, perfil lipídico, creatinina, uroanálisis según clasificación de riesgo. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a las personas que recibieron transfusiones de sangre antes de 1996 en Colombia. Aclarar para cuando se proyecta la siguiente consulta.
+          li 
+            .lista-ol--cuadro__vineta
+              span V
+            p
+              strong Vigilancia en Salud: 
+              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
+          li 
+            .lista-ol--cuadro__vineta
+              span I
+            p 
+              strong Información en Salud:
+            |
+            .row
+              .col-auto
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                    .anexo__texto
+                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades de cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, cesación de tabaco en jóvenes con tabaquismo o exposición al humo del tabaco, habilidades para la vida, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y el afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, preocupaciones por su imagen corporal o peso, entre otras).
+
+    .h4.mb-4 Instrumentos, insumos y dispositivos en la juventud
+
+    p.mb-4 Cumplimiento de estándares de habilitación para la consulta de medicina general, medicina familiar. <br>Instrumentos:
+
+    .row.mb-4.justify-content-center
+      .col-lg-12.align-self-center
+        .tabla-b.acento-contenido-contenido.mb-5 
+          .tabla-b__header
+            .h4.text-white.mb-0 Obligatorios
+          table
+            //caption Modelos gateway y agregadorg
+            tbody.text-center
+              tr(style="background-color:#f6f6f6;")
+                th.text-center(style="font-weight: normal; font-size: 16px;") Tablas y gráficas de los patrones de referencia para clasificación nutricional 
+                th.text-center(style="font-weight: normal; font-size: 16px;") Cuestionario de Finnish Risk Score y Tablas de Estratificación de la OMS  
+                th.text-center(style="font-weight: normal; font-size: 16px;") APGAR familiar
+              tr
+                th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8") Opcionales:
+              tr
+                td(colspan='4',style="font-weight: normal; font-size: 16px;background-color:#f6f6f6")
+                  .row
+                    .col-auto
+                      ul.lista-ul
+                        li
+                          i.fas.fa-check
+                          | Familiograma y Ecomapa.
+                        li
+                          i.fas.fa-check
+                          | Listas de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación (sugerido).
+                        li(style='text-align:left;')
+                          i.fas.fa-check
+                          | Salud mental y consumo de SPA: SRQ Cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental). Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En caso de que la persona asuma un rol de cuidador y exista la sospecha de sobrecarga del cuidador (Escala de Zarit) – así mismo considerar en caso de cuidadores de personas con dependencia funcional.
+              tr
+                th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8;") Insumos y materiales para examen físico pediátrico:
+              tr
+                td(colspan='4',style="font-weight: normal; font-size: 16px;background-color:#f6f6f6") Fonendoscopio equipo de órganos, tensiómetro, cinta métrica, pulsioxímetro, optotipos morfoscópicos o angulares para agudeza visual balanza y tallímetro.
+
+
+
+
+
+
+
+    #t_2_5.titulo-segundo
+      .h2 2.5 Adultez
+
+    p.mb-4 #[strong La población sujeto son ] adultos de 29 a 59 años, 11 meses y 29 días
+    p.mb-4 Se configura en un proceso dinámico, en donde continúa el desarrollo y las personas son capaces de establecer metas y poner en marcha los recursos necesarios para alcanzarlas, configurando sus trayectorias evolutivas personales y aprovechando las oportunidades disponibles en sus contextos. En este sentido, es importante subrayar que los patrones de desarrollo adulto no se configuran en algo novedoso, sino en la consolidación de los aprendizajes previos y un perfilamiento cada vez más claro de la individualidad. Por lo tanto, las intervenciones en este momento de vida permiten consolidar los aprendizajes y fortalecer las capacidades aprendidas para posibilitar el crecimiento y el logro de los objetivos planeados por cada individuo.
+
+    figure.mb-5
+      img(src='@/assets/curso/tema2/img1e.svg', alt='población sujeta')
+
+    p.mb-5 La valoración integral se realizará a través de una consulta por profesionales en medicina general o medicina familiar de acuerdo con lo contemplado en el esquema de intervenciones/atenciones en salud individuales definido en el lineamiento técnico y operativo de la Ruta de Promoción y Mantenimiento de la Salud (RPMS). Se requiere contar con capacidades técnicas e individuales, con un enfoque de curso de vida, que permita reconocer las características y potencialidades de la adultez, los efectos acumulativos para la salud a lo largo de la vida, la influencia de los sucesos vitales y la importancia de las vidas interconectadas en el desarrollo.
+
+    .h4.mb-4 Anamnesis adultez
+    p.mb-5 Se recomienda hacer énfasis en: 
+
+    .row.justify-content-center.mb-4
+      .col-lg-10.alig-self-center
+        PasosA.color-acento-contenido.mb-5(tipo='n')
+          .row
+            //1
+            .col-md-11.mb-4.mb-md-0
+              p Verificar la realización y los resultados de las pruebas de tamizaje para detección temprana de riesgo cardiovascular, cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Gestionar previamente para contar con el resultado.
+
+
+          .row
+            //2
+            .col-md-11.mb-4.mb-md-0
+              p Antecedentes familiares, enfermedades especialmente en familiares cercanos que sean heredables como hipertensión arterial, diabetes mellitus, dislipidemias, enfermedad coronaria, cáncer, cerebrovasculares, alergias, asma, tuberculosis, gota, hemofilia, glaucoma; así como enfermedades degenerativas o genéticas, trastornos mentales y/o consumo de SPA y/o alcohol propio o en la familia y exposición a violencias.
+
+          .row
+            //3
+            .col-md-11.mb-4.mb-md-0
+              p Desarrollo y vida laboral: tipo de labor, carga laboral actual, exposición a riesgos.
+
+          .row
+            //4
+            .col-md-11.mb-4.mb-md-0
+              p Consumo y hábitos alimentarios, especialmente patrón de comidas, tipo de alimentos y “dietas”.
+
+          .row
+            //5
+            .col-md-11.mb-4.mb-md-0
+              p Rutinas y hábitos: sueño, actividad física, uso de tiempo libre, actividad física. manejo del estrés y situaciones de alta tensión, práctica frecuente del autoexamen de seno y autoexamen de testículo. Valorar exposición al humo de leña o carbón, consumo de tabaco (Fumador o exfumador: N° de paquetes/año = Número de cigarrillos diarios x número de años / 20). En caso de identificar factores de riesgo para EPOC se debe aplicar cuestionario.
+
+          .row
+            //6
+            .col-md-11.mb-4.mb-md-0
+              p Valoración de la dinámica familiar. APGAR familiar - Familiograma.
+
+          .row
+            //7
+            .col-md-11.mb-4.mb-md-0
+              p Condiciones de vida, del contexto social y las redes de apoyo. Ecomapa
+
+          .row
+            //8
+            .col-md-11.mb-4.mb-md-0
+              p Avance en los compromisos acordados en sesiones de educación individual previas. Preocupaciones de salud. 
+          
+          .row
+            //9
+            .col-md-11.mb-4.mb-md-0
+              p Reconocimiento y ejercicio de Derechos Sexuales y Reproductivos y vivencia de la sexualidad en sus diferentes componentes (reproductivo, afectivo, erótico y comunicativo-relacional).
+
+    .h4.mb-4 Examen físico completo en la adultez  
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Signos vitales y examen físico completo.
+              p.mb-2 Incluyendo la valoración de las mamas (inspeccionar simetría, contorno o forma de la misma, el color, los pezones y la areola); areola);identificar curvaturas anormales en tórax; así como identificar lesiones o alteraciones de la piel, heridas o hematomas que permitan identificar posibles traumas o lesiones por exposición al sol tipo queratosis actínicas, la cual es relevante buscarlas por ser premalignas y alteraciones en la sensibilidad (hipostesia o anestesia), las cuales son características de enfermedad de Hansen. En el caso de que la persona se encuentre con limitaciones de movilidad deben ser evaluadas las áreas de presión. Realizar pruebas para revisar insuficiencia venosa en miembros inferiores y la funcionalidad de las articulaciones.
+    
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración del estado nutricional y seguimiento a los parámetros antropométricos
+              p.mb-2 Además, identificar y detectar casos de ingesta excesiva o deficiente de calorías o nutrientes a partir de la alimentación.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración del riesgo cardiovascular y metabólico
+              p.mb-2 Los instrumentos que permiten esto se encuentran condensados en la aplicación “Conoce tu riesgo” En caso de identificar riesgo cardiovascular medio, alto, muy alto o riesgo moderado y alto de diabetes, deberá ordenar los siguientes exámenes como insumo para realizar la gestión de riesgo respectiva: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis; según los resultados de los exámenes se debe derivar a la ruta integral de atención en salud para la población con riesgo o presencia de alteraciones cardio cerebro vascular metabólica.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud sexual y reproductiva
+              p.mb-2 Identificar cambios físicos y psicológicos propios del momento que afectan la participación o la satisfacción en las actividades sexuales (signos y síntomas relacionados con la funcionalidad sexual, orientación sexual, deseo, excitación, lubricación, orgasmo, satisfacción, erección, eyaculación, dolor). Evaluar las condiciones médicas que afectan la salud sexual incluyendo la depresión, la enfermedad cardíaca, enfermedad cerebrovascular, EPOC y diabetes. Mujeres con intención reproductiva o en gestación, deben derivarse a la Ruta Materno Perinatal.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud visual
+              p.mb-2 Se puede desarrollar mediante cuatro técnicas: oftalmoscopia a distancia, directa, e indirecta y la biomicroscopia con lentes accesorias. Si la agudeza visual se encuentra reducida por debajo de 20/50, debe derivarse a una consulta resolutiva por optometría para confirmar o descartar un componente refractivo
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud auditiva y comunicativa
+              p.mb-2 Incluye la evaluación del estado del oído y su integridad. Pueden incorporarse dos preguntas de percepción: ¿Tiene usted o ha tenido algún problema en el oído? y ¿Cree usted que escucha bien?.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud bucal
+              p.mb-2 Realizar el reconocimiento del estado de las estructuras dentomaxilofaciales y de su funcionalidad en los procesos de masticación, deglución, habla, fonación, socialización, afecto y autoestima, entre otras.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-5
+          img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud mental
+              p.mb-2 Incluye el examen mental (pensamiento – lógica, contenido y velocidad, lenguaje – coherencia, fluidez-, afecto y estado de ánimo, percepciones, sensorio – orientación, concentración, memoria, cálculos, razonamiento abstracto-, introspección y juicio); y la valoración de las estrategias de afrontamiento frente a sucesos vitales (normativos y no normativos) con el fin de prevenir alteraciones en la salud e identificar factores de riesgo para trastornos de comportamiento, problemas y trastornos mentales. Apoyarse para la detección de alteraciones en los instrumentos disponibles: SRQ - Cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental); Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En caso que la persona asuma un rol de cuidador y exista la sospecha de sobrecarga del cuidador (Escala de Zarit) – así mismo considerar en caso de cuidadores de personas con dependencia funcional.
+
+
+    h4.mb-5 Plan de cuidado adultez 
+    .row.justify-content-center.mb-4
+      .col-lg-11.align-self-center
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span S
+            p
+              strong Servicios sociales y atenciones a la familia: 
+              | Atenciones complementarias de cultura, deporte, recreación, educación, búsqueda de empleo, programas de apoyo alimentario, atención a víctimas, entre otras. Definir atenciones a la familia. 
+            
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              strong Enfermedad: 
+              | Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              strong Ruta de Promoción y Mantenimiento de la Salud: 
+              | Verificar o canalizar atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Ofrecer consulta preconcepcional y de orientación para la anticoncepción, de preferencia esta consulta debe realizarse de forma inmediata a este procedimiento. Tener presente la valoración y atenciones de salud bucal. Verificar vacunación en mujeres, Td (Toxoide Tetánico y Diftérico del adulto), según antecedente vacunal, tamizaje para detección temprana de riesgo cardiovascular, cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Tamizaje de riesgo cardiovascular cada 5 años: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a las personas que recibieron transfusiones de sangre antes de 1996 en Colombia. Aclarar para cuando se proyecta siguiente la consulta.
+          li 
+            .lista-ol--cuadro__vineta
+              span V
+            p
+              strong Vigilancia en Salud: 
+              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
+          li 
+            .lista-ol--cuadro__vineta
+              span I
+            p 
+              strong Información en Salud:
+            |
+            .row
+              .col-auto
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                    .anexo__texto
+                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              | Educación para la salud incluye la canalización a escenario de educación grupal para la salud (capacidades para el cuidado de la salud, alimentación y nutrición, ejercicio de los derechos sexuales y derechos reproductivos, habilidades socioemocionales para la promoción de la salud mental, establecimiento de relaciones sanas y constructivas y afrontamiento de sucesos vitales). En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, con dificultades para toma de decisiones, sin o con poco apoyo familiar, tabaquismo, entre otras).
+
+    .h4.mb-4 Instrumentos, insumos y dispositivos en la adultez
+
+    p.mb-4 Cumplimiento de estándares de habilitación para la consulta de medicina general, medicina familiar o enfermería. <br>Instrumentos:
+
+    .row.mb-4.justify-content-center
+      .col-lg-12.align-self-center
+        .tabla-b.acento-contenido-contenido.mb-5 
+          .tabla-b__header
+            .h4.text-white.mb-0 Obligatorios
+          table
+            //caption Modelos gateway y agregadorg
+            tbody.text-center
+              tr(style="background-color:#f6f6f6;")
+                th.text-center(style="font-weight: normal; font-size: 16px;") Tablas y gráficas de los patrones de referencia para clasificación nutricional 
+                th.text-center(style="font-weight: normal; font-size: 16px;") Cuestionario de Finnish Risk Score y Tablas de Estratificación de la OMS 
+                th.text-center(style="font-weight: normal; font-size: 16px;") APGAR familiar
+              tr
+                th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8") Opcionales:
+              tr
+                td(colspan='4',style="font-weight: normal; font-size: 16px;background-color:#f6f6f6")
+                  .row
+                    .col-auto
+                      ul.lista-ul
+                        li
+                          i.fas.fa-check
+                          | Familiograma y Ecomapa.
+                        li(style='text-align:left;')
+                          i.fas.fa-check
+                          | Listas de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación (sugerido).
+                        li(style='text-align:left;')
+                          i.fas.fa-check
+                          | Salud mental y consumo de SPA: SRQ Cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental). Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En caso de que la persona asuma un rol de cuidador y exista la sospecha de sobrecarga del cuidador (Escala de Zarit) – así mismo considerar en caso de cuidadores de personas con dependencia funcional.
+              tr
+                th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8;") Insumos y materiales para examen físico pediátrico:
+              tr
+                td(colspan='4',style="font-weight: normal; font-size: 16px;background-color:#f6f6f6") Fonendoscopio equipo de órganos, tensiómetro, cinta métrica, pulsioxímetro, optotipos morfoscópicos o angulares para agudeza visual balanza y tallímetro.
+
+
+
+
+
+    #t_2_6.titulo-segundo
+      .h2 2.6 Vejez
+
+
+
+    p.mb-4 La población sujeto son personas de 60 años o más. Existen diversos enfoques para comprender el proceso de envejecimiento y las características de la vejez; sin embargo, estos pueden vivirse desde las pérdidas o desde la plenitud, de acuerdo con los efectos acumulados a lo largo de la vida, la confluencia de las oportunidades y los recursos, tanto individuales como generacionales, que afectan el continuo de la vida de cada persona, así como su condición y posición social y su conjugación con la edad, el género, la clase social y el origen étnico, que representan ciertas diferencias en el acceso y disfrute de dichos recursos y oportunidades. La valoración integral en la vejez agrupa un conjunto de atenciones coordinadas, complementarias y efectivas para determinar el estado de salud de la persona adulta mayor, detectar tempranamente la exposición a riesgos y alteraciones para su prevención y/o derivación para manejo oportuno de salud requerido, y a partir de los hallazgos potenciar las capacidades, habilidades y prácticas de cuidado de la salud, la promoción del envejecimiento activo y la construcción concertada del plan de cuidado de la persona adulta mayor.
+
+
+    figure.mb-5
+      img(src='@/assets/curso/tema2/img1f.svg', alt=' La población sujeto son personas de 60 años o más')
+
+    p.mb-5 La consulta de valoración integral de la persona adulta mayor debe ser realizada por profesionales en medicina general o medicina familiar con conocimientos y experiencia en gerontología y geriatría. Importante favorecer el envejecimiento activo como proceso de optimización de las oportunidades en salud, participación y seguridad de las personas adultas mayores; el mantenimiento de la funcionalidad y la calidad de vida de las personas adultas mayores como principales indicadores de salud y bienestar. prevención de diversas formas de violencia, uso de tecnologías que inciden en la prevención de la dependencia y la fragilidad; estrategias que impulsen la solidaridad, la inserción social y el intercambio intergeneracional en el marco de las acciones dirigidas a la población adulta mayor.
+
+    .h4.mb-4 Anamnesis vejez
+    p.mb-5 Se recomienda hacer énfasis en: 
+
+    .row.justify-content-center.mb-4
+      .col-lg-10.alig-self-center
+        PasosA.color-acento-contenido.mb-5(tipo='n')
+          .row
+            //1
+            .col-md-11.mb-4.mb-md-0
+              p Antecedentes personales. 
+              p indagar factores de riesgo o presencia de enfermedades metabólicas, cardiovasculares, pulmonares (EPOC), tuberculosis, cáncer, alteraciones sensoriales, neurológicas, músculo esqueléticas, mentales o del comportamiento, manejo del estrés, enfermedades transmisibles, infecciones de trasmisión sexual, urológicas, exposición a riesgos psicosociales para violencias, abandono, enfermedades o accidentes laborales, exposición a factores de riesgo derivados del trabajo.
+
+
+          .row
+            //2
+            .col-md-11.mb-4.mb-md-0
+              p Antecedentes familiares, enfermedades que presenten o hayan presentado familiares cercanos por la posibilidad que sean heredables, trastornos o problemas mentales y/o consumo de SPA o alcohol propio o en la familia, conducta suicida, consumo de alcohol y otras sustancias psicoactivas, exposición a violencias.
+
+          .row
+            //3
+            .col-md-11.mb-4.mb-md-0
+              p.mb-2 #[strong  Presencia de síndromes geriátricos, ] un diagnóstico adecuado permite identificar riesgos relacionados y definir planes de tratamiento tempranos y prácticos que inciden en la disminución de la morbilidad, discapacidad y mortalidad evitables de las personas adultas mayores:
+              .row.justify-content-center.mb-4
+                .col-lg-11.align-self-center
+                  ol.lista-ol--cuadro
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span a
+                      p
+                        strong Deterioro cognoscitivo: 
+                        | se caracteriza por la pérdida o reducción temporal o permanente de las funciones mentales superiores (lenguaje, razonamiento, cálculo, memoria, praxias, gnosias, etc.), siendo el más común la pérdida de la memoria; por lo cual debe indagarse al respecto.
+                      
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span b
+                      p
+                        strong Inmovilidad: 
+                        | restricción involuntaria en la capacidad de transferencia y desplazamiento, generalmente debido a dificultades físicas, funcionales y psicosociales. Es necesario indagar en antecedentes o presencia de enfermedades osteoarticulares como la artrosis, osteoporosis, fracturas, debilidad muscular, lesiones en los pies, patologías cardiovasculares y trastornos neuropsiquiátricos, entre otros, factores de riesgo que limiten la movilidad o el desplazamiento de la persona.
+
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span c
+                      p
+                        strong Inestabilidad y caídas: 
+                        | es el riesgo de precipitaciones repentinas al suelo de manera involuntaria, que en algunas ocasiones pueden estar acompañadas con pérdida de la conciencia. Evaluar presencia de sarcopenia o debilidad, alteraciones de la marcha, limitaciones de la movilidad, déficit visual, deterioro cognoscitivo, diabetes mellitus tipo II, hipotensión ortostática, consumo de medicamentos con efecto sedante, dependencia funcional, y factores del entorno (tapetes, escaleras sin pasamanos, espacios con baja visibilidad entre otros). Asimismo, preguntar antecedentes de caídas anteriores y analizar los hallazgos de valoración integral.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span d
+                      p
+                        strong Fragilidad: 
+                        | es un incremento de la vulnerabilidad a estresores de baja intensidad. Debe evaluarse: fuerza de presión y velocidad de la marcha, pérdida de peso, ausencia de energía y poca actividad física; y un fenotipo multidominio basado en un déficit en salud (enfermedades, discapacidades, anormalidades radiográficas, electrocardiografías o de laboratorio).
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span e
+                      p #[strong Incontinencia de esfínteres:] además de su significado médico, tiene un profundo impacto en el bienestar de los adultos mayores, comprometiendo la autoestima y la dignidad de los mismos. Indagar infecciones, alteraciones psicológicas, delirios o estados confusionales, tratamientos farmacológicos, lesiones medulares, debilidad de suelo pélvico, entre otras causas. 
+                      
+                      
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span f
+                      p
+                        strong Depresión: 
+                        | en el adulto mayor se presenta con algunos síntomas que son infrecuentes en personas jóvenes: deterioro cognitivo que simula una demencia, ansiedad, insomnio y somatización. Importante indagar acerca de la pérdida de peso, irritabilidad, insomnio, cambios del estado de ánimo, somatización, pérdida del apetito, hipoacusia y aislamiento social. Así mismo, indagar respecto al consumo de SPA o alcohol que puede estar asociado a afectaciones del estado de ánimo en este momento de curso de vida.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span g
+                      p
+                        strong Iatrogenia: 
+                        | la Iatrogenia medicamentosa se ha convertido en uno de los principales problemas de las personas mayores. Esto por dos razones básicas: porque el envejecimiento reduce los índices terapéuticos y también porque los pacientes geriátricos tienden a usar un número mayor de medicamentos, favoreciendo la interacción medicamentosa. Por consiguiente, en cada consulta es necesario analizar los medicamentos y dosis prescritas, así como los automedicados, los naturistas y homeopáticos; identificar posibles interacciones medicamentosas y fármaco-enfermedad.
+
+          .row
+            //4
+            .col-md-11.mb-4.mb-md-0
+              p Consumo y hábitos alimentarios, evaluar la regularidad en el patrón de comidas, el tipo de alimentos consumidos, así como “dietas” que puedan contribuir al desequilibrio nutricional que permitan identificar la ingesta excesiva o deficiente de calorías o nutrientes a partir de la alimentación.
+
+          .row
+            //5
+            .col-md-11.mb-4.mb-md-0
+              p Derechos Sexuales y Reproductivos y la vivencia de la sexualidad en sus componentes (reproductivo, afectivo, erótico y comunicativo- relacional) en condiciones de libertad, equidad y dignidad. Indagar: orientación sexual, identidad de género.
+
+          .row
+            //6
+            .col-md-11.mb-4.mb-md-0
+              p Hábitos y rutinas: actividad física, higiene oral y corporal (incluyendo lavado de manos), descanso y sueño, hábito intestinal y urinario, foto protección, prevención de accidentes, uso del tiempo libre y ocio.
+
+          .row
+            //7
+            .col-md-11.mb-4.mb-md-0
+              p Valoración o actualización de la conformación y dinámica de la familia a través del Familiograma y el APGAR familiar, a fin de comprender las condiciones de la familia.
+
+          .row
+            //8
+            .col-md-11.mb-4.mb-md-0
+              p 8.	Valoración o actualización de las condiciones de vida, del contexto social y las redes de apoyo social y comunitarias de la familia (Ecomapa).
+          
+          .row
+            //9
+            .col-md-11.mb-4.mb-md-0
+              p 9.	Actividad laboral o económica actual y previa. Indagar sobre el tipo de labor, tipo de vinculación laboral y la antigüedad de la misma, la carga laboral.
+
+          .row
+            //10
+            .col-md-11.mb-4.mb-md-0
+              p Compromisos acordados en sesiones de educación individual previas y avances e inquietudes o preocupaciones.
+
+    .h4.mb-4 Examen físico completo en la vejez 
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Signos vitales y examen físico completo.
+              p.mb-2 Inspeccionar aspecto general para reconoces cambio en estado de ánimo y cuidado general que puede asociarse a depresión, abandono u otra situación. En el caso de que la persona se encuentre con limitaciones de movilidad deben ser evaluadas las áreas de presión.
+    
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de capacidad funcional
+              p.mb-2 alorar fuerza, sensibilidad, reflejos normales y patológicos, equilibrio, coordinación y temblor. Evaluar la marcha en el cambio de posición de sentado a de pie, desplazándose al menos 3 metros y luego al darse la vuelta y caminar de nuevo y finalmente al volver a sentarse (lo cual permite además detectar riesgo de caídas recurrentes). Para valorar independencia y funcionalidad utilizar los instrumentos definidos: índice de Barthel (independencia en actividades básicas de la vida diaria), escala de Lawton-Brody (nivel de dependencia en actividades instrumentales de la vida diaria) y test de Linda Fried.(detección temprana de personas adultas mayores con pre-fragilidad y fragilidad).
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración del estado nutricional y seguimiento a los parámetros antropométricos
+              p.mb-2 Además, identificar y detectar casos de ingesta excesiva o deficiente de calorías o nutrientes a partir de la alimentación. 
+      
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración del riesgo cardiovascular y metabólico
+              p.mb-2 Los instrumentos que permiten esto se encuentran condensados en la aplicación “Conoce tu riesgo”. 
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud sexual y reproductiva
+              p.mb-2 dentificar cambios físicos y psicológicos propios del momento que afectan la participación o la satisfacción en las actividades sexuales. Evaluar las condiciones médicas que afectan la salud sexual incluyendo la depresión, la enfermedad cardíaca, enfermedad cerebrovascular, EPOC y diabetes.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud visual
+              p.mb-2 Se puede desarrollar mediante cuatro técnicas: oftalmoscopia a distancia, directa, e indirecta y la biomicroscopia con lentes accesorias. Si la agudeza visual se encuentra reducida por debajo de 20/50, debe derivarse a una consulta resolutiva por optometría para confirmar o descartar un componente refractivo.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud auditiva y comunicativa
+              p.mb-2 Incluye la evaluación del estado del oído y su integridad. Pueden incorporarse dos preguntas de percepción: ¿Tiene usted o ha tenido algún problema en el oído? y ¿Cree usted que escucha bien?. Tener en cuenta si la persona es usuaria de ayudas audiológicas o no; antes de evaluar la comprensión del lenguaje y el desempeño comunicativo y las funciones de articulación, voz y habla.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-4
+          img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud bucal
+              p.mb-2 Realizar el reconocimiento del estado de las estructuras dentomaxilofaciales y de su funcionalidad en los procesos de masticación, deglución, habla, fonación, socialización, afecto y autoestima, entre otras.
+
+    .row.justify-content-center
+      .col-lg-12.align-self-center
+        .tarjeta-avatar-b.mb-5
+          img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 Valoración de la salud mental
+              p.mb-2 Incluye la valoración de: apariencia y comportamiento (conducta espontánea, atuendo, apariencia, postura, expresiones, ademanes, acciones extrañas, movimientos repetitivos, lentos o excesivos, postura anormal, contacto visual deficiente, expresiones faciales anormales, manierismos); lenguaje y comunicación (disposición e interés para comunicarse, flujo general del lenguaje; alteraciones del lenguaje; tono y contenido del discurso; relación entre comunicación verbal y no verbal); procesos de pensamiento (velocidad del habla, continuidad del habla, contenido del discurso, temas recurrentes, alteraciones del pensamiento (del curso y del contenido); estado de ánimo y afecto (estado emocional predominante, estado emocional que acompaña el discurso, fluctuaciones en estado de ánimo, correspondencia entre afecto y discurso); funcionamiento cognoscitivo (nivel de concentración, atención y estado de alerta; funcionamiento amnésico (memoria a corto y largo plazo, amnesia, hipermnesia), vocabulario, nivel de conocimientos de acuerdo con contexto personal y social); funcionamiento sensorial y motor (conciencia del entorno, orientación en tiempo, espacio y persona; alteraciones sensoriales; coordinación motora; dificultades motoras); además de valorar estrategias de afrontamiento frente a sucesos vitales. Valorar riesgo de exposición a violencias. Apoyarse para la detección de alteraciones en los instrumentos disponibles: Minimental State (en caso de sospecha de sugerentes de deterioro cognitivo), Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En el caso de presentar dependencia, realizar valoración de sobrecarga en el cuidador (Escala de Zarit).
+    
+    
+    h4.mb-5 Plan de cuidado vejez 
+    .row.justify-content-center.mb-4
+      .col-lg-11.align-self-center
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span S
+            p
+              strong Servicios sociales y atenciones a la familia: 
+              | Atenciones complementarias de instituciones de cuidado como centros día, cultura, programas de apoyo alimentario o de subsidio al adulto mayor, entre otras. Definir atenciones a la familia.
+            
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              strong Enfermedad: 
+              | diagnóstico, tratamiento y derivación. Si de acuerdo con los hallazgos el médico identifica una patología, signo o síntoma que no ha sido diagnosticado anteriormente, en esta consulta se podrá generar el diagnóstico y establecer el manejo o tratamiento del evento en salud identificado. El registro de esta atención corresponde a una consulta de valoración integral y detección temprana con un diagnóstico relacionado.
+
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              strong Ruta de Promoción y Mantenimiento de la Salud: 
+              | Verificar o canalizar atenciones en el marco de la RPMS. Tener presente la valoración y atenciones de salud bucal. Verificación anual contra influenza. Tamizaje para cáncer de cuello uterino, cáncer de mama, cáncer de próstata y de colon y recto. Tamizaje de riesgo cardiovascular y metabólico cada 5 años: glicemia basal, perfil lipídico (colesterol de alta densidad HDL, colesterol de baja densidad LDL, colesterol total triglicéridos), creatinina y uroanálisis. Tamizajes en caso de relaciones sexuales sin protección (VIH/sida, Sífilis, hepatitis B). Tamizaje para Hepatitis C, a personas mayor de 50 años una vez en la vida. Aclarar para cuando se proyecta la siguiente consulta.
+          li 
+            .lista-ol--cuadro__vineta
+              span V
+            p
+              strong Vigilancia en Salud: 
+              | Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
+          li 
+            .lista-ol--cuadro__vineta
+              span I
+            strong Información en Salud:
+            .row
+              .col-auto
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                    .anexo__texto
+                      p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              | Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              | Educación para la salud incluye la canalización a ciclo de entrenamiento cognitivo. En caso de situación o condición específica pueden programarse sesiones de educación para la salud individuales, (dificultades de afrontamiento, poco apoyo familiar o social, baja autoestima, experiencias negativas en relación con la vivencia de la sexualidad asociado a cultura negativa del envejecimiento, compromiso de la movilidad o la autonomía, riesgo de desprotección social, polifarmacia, alteraciones del sueño, tabaquismo, entre otras).
+
+    .h4.mb-4 Instrumentos, insumos y dispositivos en la vejez
+
+    p.mb-4 Cumplimiento de estándares de habilitación para la consulta de medicina general o medicina familiar. <br>Instrumentos:
+
+    .row.mb-4.justify-content-center
+      .col-lg-12.align-self-center
+        .tabla-b.acento-contenido-contenido.mb-5 
+          .tabla-b__header
+            .h4.text-white.mb-0 Obligatorios
+          table
+            //caption Modelos gateway y agregadorg
+            tbody.text-center
+              tr(style="background-color:#f6f6f6;")
+                th.text-center(style="font-weight: normal; font-size: 16px;") Tablas y gráficas de los patrones de referencia para clasificación nutricional 
+                th.text-center(style="font-weight: normal; font-size: 16px;") Cuestionario de Finnish Risk Score y Tablas de Estratificación de la OMS 
+                th.text-center(style="font-weight: normal; font-size: 16px;") APGAR familiar
+                th.text-center(style="font-weight: normal; font-size: 16px;") Escala de Lawton-Brody*; Test de linda Fried*, Escala de Barthel*.  
+              tr
+                th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8") Opcionales:
+              tr
+                td(colspan='4',style="font-weight: normal; font-size: 16px;background-color:#f6f6f6")
+                  .row
+                    .col-auto
+                      ul.lista-ul
+                        li
+                          i.fas.fa-check
+                          | Familiograma y Ecomapa.
+                        li
+                          i.fas.fa-check
+                          | Minimental.
+                        li(style='text-align:left;')
+                          i.fas.fa-check
+                          | Listas de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación (Sugerido)
+                        li(style='text-align:left;')
+                          i.fas.fa-check
+                          | Salud mental y consumo de SPA: SRQ, cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental). Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En caso de que la persona asuma un rol de cuidador y exista la sospecha de sobrecarga del cuidador (Escala de Zarit) – así mismo considerar en caso de cuidadores de personas con dependencia funcional.
+            
               tr
                 th.text-center(colspan='4',style="font-weight: 900; font-size: 19px; color:#fff; background-color:#f579a8;") Insumos y materiales para examen físico pediátrico:
               tr
@@ -805,15 +1585,6 @@
 
 
 
-
-    #t_2_4.titulo-segundo
-      .h2 2.4 Juventud
-
-    #t_2_5.titulo-segundo
-      .h2 2.5 Adultez
-
-    #t_2_6.titulo-segundo
-      .h2 2.6 Vejez
 </template>
 
 <script>
