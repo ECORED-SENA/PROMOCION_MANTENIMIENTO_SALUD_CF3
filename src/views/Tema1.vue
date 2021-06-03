@@ -2,14 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
     .titulo-principal
-      .titulo-principal__numero.title-number
-        .h3 1
-      .h3 Atención en salud en el marco de la valoración integral en salud 
+      .titulo-principal__numero
+        span 1
+      h1 Atención en salud en el marco de la valoración integral en salud
     
     p.mb-5 La atención en salud por profesional de medicina, enfermería, medicina familiar o pediatría, que se brinda en el marco de la valoración integral por momento de curso de vida, es un procedimiento que articula una serie de atenciones esenciales para aportar a los resultados en salud, desde una perspectiva de integralidad e incorporando elementos y principios del enfoque de curso de vida. Esta atención tiene como objetivos:
 
-    .h6.text-center.mb-5 Objetivos de la consulta de valoración integral en salud por Curso de Vida
+    .h5.text-center.mb-5 Objetivos de la consulta de valoración integral en salud por Curso de Vida
 
     .row.justify-content-center.mb-4
       .col-lg-6.align-self-center
@@ -47,7 +48,7 @@
           hr.hr.mx-auto
     
     #t_1_1.titulo-segundo
-      .h4.mb-4 1.1 Talento humano
+      .h2.mb-4 1.1 Talento humano
 
     p.mb-4 El talento humano que realiza esta atención debe contar con capacidades técnicas e individuales, que permitan valorar de manera integral, la salud de una persona de acuerdo a su momento de curso de vida, reconocer las características y potencialidades, valorar las ventanas de oportunidades, contar con habilidades de comunicación, reconocer los efectos acumulativos para la salud a lo largo de la vida y la influencia de los sucesos vitales, así como la importancia de las vidas interconectadas en el desarrollo; gestionar adecuadamente los factores de riesgo, conocer e implementar los escenarios de educación para la salud, de acuerdo a las orientaciones emitidas al respecto para identificar y potenciar capacidades, habilidades y prácticas de cuidado de la salud. Así mismo, debe conocer aspectos bioéticos y legales, especialmente en relación con la atención en salud de poblaciones vulnerables, el abordaje de género y en algunos momentos del curso de vida (por ejemplo, adolescencia). Para la primera infancia se define unos factores o condiciones asociadas a mayor riesgo, en las cuales la atención debe ser desarrollada por profesional de pediatría. Para el caso de vejez, se propone que el profesional de medicina o medicina familiar cuente con conocimiento y experiencia en gerontología y geriatría, entre otros aspectos (Ministerio de Salud y Protección Social, 2018).
 
@@ -75,7 +76,7 @@
             </svg>
             .row.justify-content-center
               .col-lg-12.align-self-center
-                h6.mb-4 Valorar integralmente
+                h4.mb-4 Valorar integralmente
                 ul.fa-ul
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar el crecimiento y desarrollo (físico, motriz, cognitivo y socioemocional) desde la primera infancia hasta la juventud.
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Valorar capacidad funcional en la vejez (Fragilidad, actividades básicas y actividades instrumentales de la vida diaria).
@@ -105,7 +106,7 @@
             </svg>
             .row.justify-content-center
               .col-lg-12.align-self-center
-                h6.mb-4 Identificar y gestionar riesgos y desarrollar atenciones protección
+                h4.mb-4 Identificar y gestionar riesgos y desarrollar atenciones protección
                 ul.fa-ul
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Aplicar, verificar u ordenar pruebas tamiz para detección temprana de alteraciones en la salud.
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Verificar atenciones de protección específica en el marco de la RPMS (esquema de vacunación,<br> suministro de micronutrientes y desparasitación intestinal en primera infancia,<br> atenciones de salud bucal, anticoncepción, entre otros).
@@ -125,18 +126,81 @@
             </svg>
             .row.justify-content-center
               .col-lg-12.align-self-center
-                h6.mb-4 Potenciar capacidades
+                h4.mb-4 Potenciar capacidades
                 ul.fa-ul
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Procesos de educación para la salud.
                   
           hr.hr.mx-auto
 
     #t_1_2.titulo-segundo
-      .h4 1.2 Descripción general del procedimiento
-        
+      .h2 1.2 Descripción general del procedimiento
+    
+    p.mb-4 El procedimiento señala aspectos relevantes a tener en cuenta para la i) anamnesis, ii) el examen físico y iii) la definición del plan de cuidado. Para el caso de los niños y las niñas (primera infancia e infancia) es fundamental la presencia de un cuidador y/o acompañante durante la consulta. Este espacio debe partir de una atención centrada en la persona y su familia; considerando presentarse y comunicarse con la persona por su nombre, comentando el sentido general de la consulta y partiendo de reconocer brevemente el contexto de la persona. Es muy importante contar con los dos, así como disponer de los instrumentos obligatorios y sugeridos; como los insumos y dispositivos necesarios para realizar la consulta en el lugar.
 
+    p.mb-4 #[strong Anamnesis, ] incluye indagación de antecedentes y revisión por sistemas:
 
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
 
+    h5.mb-5 Examen físico completo:
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .h5.mb-5 Plan de Cuidado
+
+    p.mb-4 Incorpora todos los hallazgos detectados, necesidades expresadas y medidas que permiten promover la salud y el cuidado. Incluye entre otros, estos elementos:
+
+    .row.justify-content-center.mb-4
+      .col-lg-11.align-self-center
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span S
+            p
+              strong Servicios sociales y atenciones a la familia: 
+              | derivar a Servicios sociales de acuerdo a la oferta territorial. En caso que se considere y de acuerdo a los hallazgos de la valoración de la dinámica y funcionalidad familiar puede derivarse a una o más atenciones dirigidas a la familia: i) educación para la salud dirigida a la familia y/o ii) atención básica de orientación familiar. Importante esta atención básica de orientación especialmente en familias con relaciones conflictivas o inadecuado funcionamiento, que enfrentan sucesos vitales que pueden sobrepasar su capacidad de afrontamiento, familias en condiciones de vulnerabilidad social, con integrante con discapacidad, con redes de apoyo deficientes, entre otras.
+            
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              strong Enfermedad: 
+              | diagnóstico, tratamiento y derivación. Diagnóstico y tratamiento de patologías o situaciones encontradas (en caso de profesional de medicina o derivación a consulta por profesional de medicina en caso de ser realizada por profesional de enfermería). Derivación a valoración por especialista, rutas de riesgo u otras atenciones resolutivas
+
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              strong Ruta de Promoción y Mantenimiento de la Salud: 
+              | verificar o canalizar a atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Incluye tamizajes de sífilis y VIH en caso de relaciones sexuales sin protección.
+          li 
+            .lista-ol--cuadro__vineta
+              span V
+            p
+              strong Vigilancia en Salud: 
+              | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
+          li 
+            .lista-ol--cuadro__vineta
+              span I
+            p
+              strong Información en Salud: 
+              | adaptarla a los hallazgos y necesidades expresadas, teniendo presente en todo caso algunos aspectos de acuerdo al momento de curso de vida. 
+          li 
+            .lista-ol--cuadro__vineta
+              span R
+            p
+              strong Remitir: 
+              | a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+          li 
+            .lista-ol--cuadro__vineta
+              span E
+            p
+              strong Educación para la Salud: 
+              | incluye la canalización a escenario de educación grupal para la salud de acuerdo a momento de curso de vida (atención programática destinada a toda la población). En caso que se detecte una situación o condición específica pueden programarse sesiones de educación para la salud individuales 
 
 
 
