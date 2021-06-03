@@ -156,51 +156,52 @@
 
     .row.justify-content-center.mb-4
       .col-lg-11.align-self-center
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span S
-            p
-              strong Servicios sociales y atenciones a la familia: 
-              | derivar a Servicios sociales de acuerdo a la oferta territorial. En caso que se considere y de acuerdo a los hallazgos de la valoración de la dinámica y funcionalidad familiar puede derivarse a una o más atenciones dirigidas a la familia: i) educación para la salud dirigida a la familia y/o ii) atención básica de orientación familiar. Importante esta atención básica de orientación especialmente en familias con relaciones conflictivas o inadecuado funcionamiento, que enfrentan sucesos vitales que pueden sobrepasar su capacidad de afrontamiento, familias en condiciones de vulnerabilidad social, con integrante con discapacidad, con redes de apoyo deficientes, entre otras.
-            
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Enfermedad: 
-              | diagnóstico, tratamiento y derivación. Diagnóstico y tratamiento de patologías o situaciones encontradas (en caso de profesional de medicina o derivación a consulta por profesional de medicina en caso de ser realizada por profesional de enfermería). Derivación a valoración por especialista, rutas de riesgo u otras atenciones resolutivas
+        .v-line_container
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span S
+              p
+                strong Servicios sociales y atenciones a la familia: 
+                | derivar a Servicios sociales de acuerdo a la oferta territorial. En caso que se considere y de acuerdo a los hallazgos de la valoración de la dinámica y funcionalidad familiar puede derivarse a una o más atenciones dirigidas a la familia: i) educación para la salud dirigida a la familia y/o ii) atención básica de orientación familiar. Importante esta atención básica de orientación especialmente en familias con relaciones conflictivas o inadecuado funcionamiento, que enfrentan sucesos vitales que pueden sobrepasar su capacidad de afrontamiento, familias en condiciones de vulnerabilidad social, con integrante con discapacidad, con redes de apoyo deficientes, entre otras.
+              
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Enfermedad: 
+                | diagnóstico, tratamiento y derivación. Diagnóstico y tratamiento de patologías o situaciones encontradas (en caso de profesional de medicina o derivación a consulta por profesional de medicina en caso de ser realizada por profesional de enfermería). Derivación a valoración por especialista, rutas de riesgo u otras atenciones resolutivas
 
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Ruta de Promoción y Mantenimiento de la Salud: 
-              | verificar o canalizar a atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Incluye tamizajes de sífilis y VIH en caso de relaciones sexuales sin protección.
-          li 
-            .lista-ol--cuadro__vineta
-              span V
-            p
-              strong Vigilancia en Salud: 
-              | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
-          li 
-            .lista-ol--cuadro__vineta
-              span I
-            p
-              strong Información en Salud: 
-              | adaptarla a los hallazgos y necesidades expresadas, teniendo presente en todo caso algunos aspectos de acuerdo al momento de curso de vida. 
-          li 
-            .lista-ol--cuadro__vineta
-              span R
-            p
-              strong Remitir: 
-              | a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
-          li 
-            .lista-ol--cuadro__vineta
-              span E
-            p
-              strong Educación para la Salud: 
-              | incluye la canalización a escenario de educación grupal para la salud de acuerdo a momento de curso de vida (atención programática destinada a toda la población). En caso que se detecte una situación o condición específica pueden programarse sesiones de educación para la salud individuales 
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Ruta de Promoción y Mantenimiento de la Salud: 
+                | verificar o canalizar a atenciones en el marco de la RPMS (en caso dado atenciones de la RIAMP). Incluye tamizajes de sífilis y VIH en caso de relaciones sexuales sin protección.
+            li 
+              .lista-ol--cuadro__vineta
+                span V
+              p
+                strong Vigilancia en Salud: 
+                | realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
+            li 
+              .lista-ol--cuadro__vineta
+                span I
+              p
+                strong Información en Salud: 
+                | adaptarla a los hallazgos y necesidades expresadas, teniendo presente en todo caso algunos aspectos de acuerdo al momento de curso de vida. 
+            li 
+              .lista-ol--cuadro__vineta
+                span R
+              p
+                strong Remitir: 
+                | a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+            li 
+              .lista-ol--cuadro__vineta
+                span E
+              p
+                strong Educación para la Salud: 
+                | incluye la canalización a escenario de educación grupal para la salud de acuerdo a momento de curso de vida (atención programática destinada a toda la población). En caso que se detecte una situación o condición específica pueden programarse sesiones de educación para la salud individuales 
 
 
 
