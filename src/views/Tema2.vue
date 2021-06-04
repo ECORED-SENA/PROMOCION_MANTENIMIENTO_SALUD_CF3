@@ -7,7 +7,7 @@
         span 2
       .h1 Atención en salud por cada momento de curso de vida
 
-    p.mb-4 De acuerdo con cada momento de vida se brinda una atención en salud determinada como se puede observar en cada uno de los ciclos de vida o etapas de desarrollo.
+    p.mb-5 De acuerdo con cada momento de vida se brinda una atención en salud determinada como se puede observar en cada uno de los ciclos de vida o etapas de desarrollo.
 
     #t_2_1.titulo-segundo
       .h2 2.1 Primera infancia
@@ -144,7 +144,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p.mb-0 #[strong Enlace web.] Para ampliar información: Clinical Practice Guideline for Screening and Management of High Blood Pressure in Children and Adolescents PEDIATRICS Volume 140, number 3, September 2017:e20171904 
+                      p.mb-0 Clinical Practice Guideline for Screening and Management of High Blood Pressure in Children and Adolescents PEDIATRICS Volume 140, number 3, September 2017:e20171904 
     
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -216,7 +216,7 @@
 
     .h4.mb-5 Plan de cuidado primera infancia 
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center(style="margin-bottom:60px;")
       .col-lg-11.align-self-center
         .v-line_container  
           ol.lista-ol--cuadro
@@ -256,7 +256,7 @@
                 .col-auto
                     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                       .anexo__icono
-                        img(src="@/assets/template/icono-pdf.svg" style="width:10%; ")
+                        img(src="@/assets/template/icono-pdf.svg", style="width:10%; ")
                       .anexo__texto
                         p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
                 
@@ -448,7 +448,7 @@
               .h3 Valoración de la salud mental
               p.mb-2 En este marco es importante indagar acerca de la calidad de la relación de los padres hacia los hijos, dado que este factor es importante como protector o riesgo de posibles problemas y /o trastornos mentales.  Tener en cuenta los hallazgos a partir de la anamnesis, identificar la presencia de riesgos psicosociales para violencias y de exposición a violencias, que puede incluir una o diversas formas de violencias de género, interpersonales o con ocurrencia en el conflicto armado, identificar lesiones por consumo de SPA, bajo rendimiento escolar, problemas de aprendizaje o de comportamiento, problemas en el hábito de comer, duelo o pérdida significativa, así como convulsiones o ausencias. Si identifica algún riesgo de problema o trastorno mental aplicar el instrumento de tamizaje Reporting Questionnaire for Children (RQC). Se propone presentar como listado ordenado simple
     h4.mb-5 Plan de cuidado infancia 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center(style="margin-bottom:60px;")
       .col-lg-11.align-self-center
         .v-line_container  
           ol.lista-ol--cuadro
@@ -691,7 +691,7 @@
               .h3 Valoración de la salud mental
               p.mb-2 Adicional a los hallazgos a partir de la anamnesis, se debe valorar la presencia de lesiones físicas por exposición a situaciones de violencia intrafamiliar, violencia sexual y de género o por violencia de pares (matoneo), lesiones por consumo de SPA, lesiones autoinflingidas. Si identifica algún riesgo en salud mental se debe aplicar el instrumento de tamizaje Reporting Questionnaire for Children (RQC) para los adolescentes entre 12 y 15 años y Self Report Questionnaire (SRQ) a partir de los 16 años. Ante el consumo de SPA se debe aplicar el instrumento Substance Involvement Screening Test (ASSIST) y en el de alcohol el instrumento Alcohol Use Disorders Identification Test (AUDIT).
     h4.mb-5 Plan de cuidado infancia 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center(style="margin-bottom:60px;")
       .col-lg-11.align-self-center
         .v-line_container  
           ol.lista-ol--cuadro
@@ -941,7 +941,7 @@
               p.mb-2 Incluye el examen mental (pensamiento – lógica, contenido y velocidad, lenguaje – coherencia, fluidez-, afecto y estado de ánimo, percepciones, sensorio – orientación, concentración, memoria, cálculos, razonamiento abstracto-, introspección y juicio); y la valoración de las estrategias de afrontamiento frente a sucesos vitales (normativos y no normativos) con el fin de prevenir alteraciones en la salud e identificar factores de riesgo para trastornos de comportamiento, problemas y trastornos mentales. Apoyarse para la detección de alteraciones en los instrumentos disponibles: SRQ - Cuestionario de auto reporte (personas desde los 16 años para detectar alteraciones de salud mental); Preguntas Whooley (en mayores de 18 años para detectar depresión); GAD-2 – Escala para trastorno de ansiedad generalizado (mayores de 18 años). En caso de sospecha de consumo de sustancias psicoactivas y tabaco (ASSIST); o en caso de sospecha de consumo problemático de alcohol (AUDIT). En caso que la persona asuma un rol de cuidador y exista la sospecha de sobrecarga del cuidador (Escala de Zarit) – así mismo considerar en caso de cuidadores de personas con dependencia funcional.
     
     h4.mb-5 Plan de cuidado juventud 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center(style="margin-bottom:60px;")
       .col-lg-11.align-self-center
         .v-line_container  
           ol.lista-ol--cuadro
@@ -1178,7 +1178,7 @@
 
 
     h4.mb-5 Plan de cuidado adultez 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center(style="margin-bottom:60px;")
       .col-lg-11.align-self-center
         .v-line_container  
           ol.lista-ol--cuadro
@@ -1308,7 +1308,7 @@
           .row
             //3
             .col-md-11.mb-4.mb-md-0
-              p.mb-2 #[strong  Presencia de síndromes geriátricos, ] un diagnóstico adecuado permite identificar riesgos relacionados y definir planes de tratamiento tempranos y prácticos que inciden en la disminución de la morbilidad, discapacidad y mortalidad evitables de las personas adultas mayores:
+              p.mb-5 #[strong  Presencia de síndromes geriátricos, ] un diagnóstico adecuado permite identificar riesgos relacionados y definir planes de tratamiento tempranos y prácticos que inciden en la disminución de la morbilidad, discapacidad y mortalidad evitables de las personas adultas mayores:
               .row.justify-content-center.mb-4
                 .col-lg-11.align-self-center
                   ol.lista-ol--cuadro
@@ -1477,7 +1477,7 @@
     
     
     h4.mb-5 Plan de cuidado vejez 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center(style="margin-bottom:60px;")
       .col-lg-11.align-self-center
         .v-line_container
           ol.lista-ol--cuadro

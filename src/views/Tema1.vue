@@ -112,7 +112,7 @@
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Verificar atenciones de protección específica en el marco de la RPMS (esquema de vacunación,<br> suministro de micronutrientes y desparasitación intestinal en primera infancia,<br> atenciones de salud bucal, anticoncepción, entre otros).
 
 
-    .row.justify-content-center.mb-2
+    .row.justify-content-center.mb-5
       .col-lg-12.align-self-center
         .contenedor-B
           hr.hr.mx-auto
@@ -130,7 +130,7 @@
                 ul.fa-ul
                   li.mb-2 #[span.li--clr.fa-li #[i.fas.fa-check]] Procesos de educación para la salud.
                   
-          hr.hr.mx-auto
+          hr.hr.mx-auto.mb-5
 
     #t_1_2.titulo-segundo
       .h2 1.2 Descripción general del procedimiento
