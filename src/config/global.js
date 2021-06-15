@@ -226,6 +226,12 @@ export default {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
+      {
+        nombre: 'Rafael Augusto Mantilla López',
+        cargo: 'Validación de diseño y contenido',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
     ],
     gestoresRepositorio: [
       {
@@ -351,6 +357,11 @@ export default {
     },
     {
       termino: 'TAMIZAJE',
+      significado:
+        'Es definido por la OMS como “el uso de una prueba sencilla en una población saludable, para identificar a aquellos individuos que tienen alguna patología, pero que todavía no presentan síntomas”.',
+    },
+    {
+      termino: 'TRASTORNOS DEL NEURODESARROLLO',
       significado:
         'Se define por déficits o alteraciones en el desarrollo produciendo limitaciones en áreas específicas o limitaciones globales, estos déficits ocasionan dificultades/limitaciones en lo personal, social, académico o en el funcionamiento ocupacional. (American Psychiatric Association 2013).',
     },

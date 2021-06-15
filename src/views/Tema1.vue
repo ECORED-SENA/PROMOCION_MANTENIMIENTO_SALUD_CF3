@@ -15,7 +15,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.align-self-center
         figure(style="text-align: -webkit-center;")
-          img(src='@/assets/curso/tema1/img1.jpg', alt='Objetivos de la consulta de valoración integral en salud por Curso de Vida', style="width:380px;")
+          img(src='@/assets/curso/tema1/img1.png', alt='Objetivos de la consulta de valoración integral en salud por Curso de Vida', style="width:380px;")
       .col-lg-6.align-self-center
         .contenedor
           hr.hr.mx-auto
@@ -44,7 +44,7 @@
           hr.hr.mx-auto
           .recuadro_imagen.px-2
             img(src='@/assets/curso/tema1/num5.svg', alt='Texto que describa la imagen', style="margin-right:2rem !important;").m-auto
-            p Valorar y hacer seguimiento integral a la salud a la persona en todo el curso de la vida; así como al desarrollo integral (físico, cognitivo, social) especialmente desde la primera infancia hasta la juventud.
+            p Valorar y hacer seguimiento integral a la salud, a la persona en todo el curso de la vida; así como al desarrollo integral (físico, cognitivo, social) especialmente desde la primera infancia hasta la juventud.
           hr.hr.mx-auto
     
     #t_1_1.titulo-segundo
@@ -135,20 +135,36 @@
     #t_1_2.titulo-segundo
       .h2 1.2 Descripción general del procedimiento
     
-    p.mb-4 El procedimiento señala aspectos relevantes a tener en cuenta para la i) anamnesis, ii) el examen físico y iii) la definición del plan de cuidado. Para el caso de los niños y las niñas (primera infancia e infancia) es fundamental la presencia de un cuidador y/o acompañante durante la consulta. Este espacio debe partir de una atención centrada en la persona y su familia; considerando presentarse y comunicarse con la persona por su nombre, comentando el sentido general de la consulta y partiendo de reconocer brevemente el contexto de la persona. Es muy importante contar con los dos, así como disponer de los instrumentos obligatorios y sugeridos; como los insumos y dispositivos necesarios para realizar la consulta en el lugar.
+    p.mb-4 El procedimiento señala aspectos relevantes a tener en cuenta para la I) anamnesis, II) el examen físico y III) la definición del plan de cuidado. Para el caso de los niños y las niñas (primera infancia e infancia) es fundamental la presencia de un cuidador y/o acompañante durante la consulta. Este espacio debe partir de una atención centrada en la persona y su familia; considerando presentarse y comunicarse con la persona por su nombre, comentando el sentido general de la consulta y partiendo de reconocer brevemente el contexto de la persona. Es muy importante contar con los dos, así como disponer de los instrumentos obligatorios y sugeridos; como los insumos y dispositivos necesarios para realizar la consulta en el lugar.
 
     p.mb-4 #[strong Anamnesis, ] incluye indagación de antecedentes y revisión por sistemas:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.color-acento-botones.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/tema1/llamado.svg")
+        .col-md.col-lg-6
+          .titulo-segundo
+            h3 Anamnesis
+          p.mb-4 Lo invitamos a descargar la siguiente infografía que servirá para introducir un poco más el tema.
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_CF3_anamnesis.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
     
 
     h5.mb-5 Examen físico completo:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.color-acento-botones.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/tema1/llamado.svg")
+        .col-md.col-lg-6
+          .titulo-segundo
+            h3 Examen físico completo
+          p.mb-4 Lo invitamos a descargar la siguiente infografía que servirá para introducir un poco más el tema.
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
 
     .h5.mb-5 Plan de Cuidado
 
@@ -163,7 +179,7 @@
                 span S
               p
                 strong Servicios sociales y atenciones a la familia: 
-                | derivar a Servicios sociales de acuerdo a la oferta territorial. En caso que se considere y de acuerdo a los hallazgos de la valoración de la dinámica y funcionalidad familiar puede derivarse a una o más atenciones dirigidas a la familia: i) educación para la salud dirigida a la familia y/o ii) atención básica de orientación familiar. Importante esta atención básica de orientación especialmente en familias con relaciones conflictivas o inadecuado funcionamiento, que enfrentan sucesos vitales que pueden sobrepasar su capacidad de afrontamiento, familias en condiciones de vulnerabilidad social, con integrante con discapacidad, con redes de apoyo deficientes, entre otras.
+                | derivar a Servicios sociales de acuerdo a la oferta territorial. En caso que se considere y de acuerdo a los hallazgos de la valoración de la dinámica y funcionalidad familiar puede derivarse a una o más atenciones dirigidas a la familia: I) educación para la salud dirigida a la familia y/o II) atención básica de orientación familiar. Importante esta atención básica de orientación especialmente en familias con relaciones conflictivas o inadecuado funcionamiento, que enfrentan sucesos vitales que pueden sobrepasar su capacidad de afrontamiento, familias en condiciones de vulnerabilidad social, con integrante con discapacidad, con redes de apoyo deficientes, entre otras.
               
             li 
               .lista-ol--cuadro__vineta
@@ -194,8 +210,8 @@
               .lista-ol--cuadro__vineta
                 span R
               p
-                strong Remitir: 
-                | a intervenciones colectivas del Plan de Intervenciones Colectivas de acuerdo a oferta territorial y entornos en los que se desarrolla.
+                strong Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas: 
+                | de acuerdo a oferta territorial y entornos en los que se desarrolla.
             li 
               .lista-ol--cuadro__vineta
                 span E
