@@ -137,7 +137,8 @@ export default {
       {
         nombre: 'Mónica Genith Castro ',
         cargo: 'Experta temática',
-        centro: 'Red Nacional Bancos de Sangre y Servicio de Transfusión',
+        centro:
+          'Ministerio de Salud - Dirección de promoción y prevención - grupo curso de vida',
       },
       {
         nombre: 'Lía Marcela Gúiza',
@@ -176,16 +177,10 @@ export default {
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Sandra Patricica Hoyos Sepúlveda ',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y metrología',
+        regional: 'Regional Bogotá',
       },
     ],
     desarrolloProducto: [
@@ -198,25 +193,23 @@ export default {
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Integración de recursos y pruebas',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
+      },
+      {
+        nombre: 'Luis Zenen Arévalo Mantilla',
+        cargo: 'Diseño Grafico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
         nombre: [
-          'Carlos Julian Ramirez Benitez',
-          'Camilo Andrés Villamizar Lizcano',
-          'José Jaime Luis Tang Pinzón',
-          'María Natalia Maldonado Delgado',
+          'Angela Maldonado',
+          'Gilberto Junior Rodriguez Rodriguez',
           'Wilson Andres Arenales Cáceres',
           'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Diseño web y Producción Audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Luis Arévalo',
-        cargo: 'Diseño Grafico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -382,7 +375,7 @@ export default {
       texto:
         'Organización Mundial de la salud (2007). Manual WHO Anthro para computadoras personales, Software para evaluar el crecimiento y desarrollo de los niños del mundo.',
       tipo: 'PDF',
-      descarga: '/downloads/psicologia_de_la_moda.pdf',
+      descarga: '/downloads/manual_anthro_para_pc.pdf',
     },
     {
       texto: 'Gobierno de Colombia (2016). Escala Abreviada de Desarrollo- 3.',
