@@ -93,11 +93,11 @@
         PasosA.color-acento-contenido.mb-5(tipo='n')
           .row
             .col-md-11.mb-4.mb-md-0
-              p Ancedentes personales, médicos, hospitalarios, transfusionales, farmacológicos, exposición al humo de tabaco, alérgicos, quirúrgicos, vacunación, comportamiento general y relaciones interpersonales.
+              p Antedentes personales, médicos, hospitalarios, transfusionales, farmacológicos, exposición al humo de tabaco, alérgicos, quirúrgicos, vacunación, comportamiento general y relaciones interpersonales.
 
           .row
             .col-md-11.mb-4.mb-md-0
-              p Ancedentes familiares (enfermedades, violencias, trastornos de la salud mental y/o consumo de alcohol o SPA en padres, hermanos u otros familiares).
+              p Antedentes familiares (enfermedades, violencias, trastornos de la salud mental y/o consumo de alcohol o SPA en padres, hermanos u otros familiares).
 
           .row
             .col-md-11.mb-4.mb-md-0
@@ -139,10 +139,10 @@
               .h3 Signos vitales
               p.mb-2 La tensión arterial debe tomarse a todos los niños mayores de 3 años de edad o a los menores de esta edad, si tienen síntomas recurrentes de cualquier tipo o antecedente de cateterización umbilical en el período neonatal. Revisar referencia de tensión arterial por edad. Esta debe hacerse con el manguito adecuado y debe establecerse su normalidad a través del uso de la tabla de percentiles de tensión arterial en niños y niñas. Para ampliar información:
               .row
-                .col-md-8
-                  a.anexo.mb-4.mb-lg-0(href="https://www.aappublications.org/news" target="_blank")
+                .col-auto
+                  a.anexo.mb-4(href="https://www.aappublications.org/news" target="_blank")
                     .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
+                      img(src="@/assets/template/icono-link.svg",style="width:44px;")
                     .anexo__texto
                       p.mb-0 Clinical Practice Guideline for Screening and Management of High Blood Pressure in Children and Adolescents PEDIATRICS Volume 140, number 3, September 2017:e20171904 
     
@@ -228,7 +228,7 @@
 
           p(numero="V" titulo="Vigilancia en Salud") Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
 
-          p(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_ninos.pdf')" target="_blank") Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias]              
+          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_ninos.pdf')" target="_blank") Anexo. Tips para informacion en salud primera infancia e infancia]              
           
 
           p(numero="R" titulo="Remitir a intervenciones colectivas  ") Del Plan de Intervenciones Colectivas de acuerdo con oferta territorial y entornos en los que se desarrolla.
@@ -424,7 +424,7 @@
           
           p(numero="V" titulo="Vigilancia en Salud") Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.  
 
-          p(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_ninos.pdf')" target="_blank") Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias]  
+          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_ninos.pdf')" target="_blank") Anexo. Tips para informacion en salud primera infancia e infancia]  
 
           p(numero="R" titulo="Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas") De acuerdo a oferta territorial y entornos en los que se desarrolla.
 
@@ -503,7 +503,7 @@
             //1
             .col-md-11.mb-4.mb-md-0
               p #[strong Antecedentes personales], incluyendo el desarrollo puberal. 
-              p 1.a. Verificar pruebas de tamizaje para anemia y resultados. Importante gestionar previamente para contar con resultado en la consulta
+              p Verificar pruebas de tamizaje para anemia y resultados. Importante gestionar previamente para contar con resultado en la consulta
 
 
           .row
@@ -633,7 +633,7 @@
 
           p.mb-0(numero="V" titulo="Vigilancia en Salud") Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
 
-          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_adolescentes.pdf')" target="_blank") Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias] 
+          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_adolescentes.pdf')" target="_blank") Anexo. Tips de información en salud en adolescentes y jóvenes] 
 
           p.mb-0(numero="R" titulo="Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas") De acuerdo con oferta territorial y entornos en los que se desarrolla.
 
@@ -844,7 +844,7 @@
 
           p.mb-0(numero="V" titulo="Vigilancia en Salud") Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
 
-          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_adolescentes.pdf')" target="_blank") Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias]
+          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_adolescentes.pdf')" target="_blank") Anexo. Tips de información en salud en adolescentes y jóvenes]
           
           p.mb-0(numero="R" titulo="Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas") De acuerdo a oferta territorial y entornos en los que se desarrolla.    
 
@@ -1047,7 +1047,7 @@
 
           p.mb-0(numero="V" titulo="Vigilancia en Salud") realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta
 
-          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_adultos.pdf')" target="_blank") Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias]  
+          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_adultos.pdf')" target="_blank") Anexo. Tips de información en salud para adultos]  
 
           p.mb-0(numero="R" titulo="Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas") De acuerdo con oferta territorial y entornos en los que se desarrolla.
 
@@ -1310,7 +1310,7 @@
 
           p.mb-0(numero="V" titulo="Vigilancia en Salud") Realizar la notificación obligatoria de los eventos de interés en salud pública identificados durante la consulta.
 
-          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_vejez.pdf')" target="_blank") Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias]
+          p.mb-0(numero="I" titulo="Información en Salud") #[a(:href="obtenerLink('/downloads/plan_cuidado_vejez.pdf')" target="_blank") Anexo. Tips de información en salud para la vejez]
 
           p.mb-0(numero="R" titulo="Remitir a intervenciones colectivas del Plan de Intervenciones Colectivas") De acuerdo a oferta territorial y entornos en los que se desarrolla.
 

@@ -1,4 +1,4 @@
-# **VALORACIÓN INTEGRAL EN SALUD POR MOMENTO DEL CURSO DE VIDA**
+# **Valoración integral en salud por momento del curso de vida**
 
 ## **Enlace GitHubPages**
 
