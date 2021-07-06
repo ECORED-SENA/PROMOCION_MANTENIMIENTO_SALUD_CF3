@@ -93,11 +93,11 @@
         PasosA.color-acento-contenido.mb-5(tipo='n')
           .row
             .col-md-11.mb-4.mb-md-0
-              p Antedentes personales, médicos, hospitalarios, transfusionales, farmacológicos, exposición al humo de tabaco, alérgicos, quirúrgicos, vacunación, comportamiento general y relaciones interpersonales.
+              p Antecedentes personales, médicos, hospitalarios, transfusionales, farmacológicos, exposición al humo de tabaco, alérgicos, quirúrgicos, vacunación, comportamiento general y relaciones interpersonales.
 
           .row
             .col-md-11.mb-4.mb-md-0
-              p Antedentes familiares (enfermedades, violencias, trastornos de la salud mental y/o consumo de alcohol o SPA en padres, hermanos u otros familiares).
+              p Antecedentes familiares (enfermedades, violencias, trastornos de la salud mental y/o consumo de alcohol o SPA en padres, hermanos u otros familiares).
 
           .row
             .col-md-11.mb-4.mb-md-0

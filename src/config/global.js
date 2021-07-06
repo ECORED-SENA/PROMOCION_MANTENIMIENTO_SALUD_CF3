@@ -125,9 +125,7 @@ export default {
   referencias: [
     {
       referencia:
-        'CENETEC (2011). Guía de práctica clínica de valoración geronto-geriátrica integral en el adulto mayor ambulatorio. Disponible en:',
-      link:
-        'http://www.cenetec.salud.gob.mx/descargas/gpc/CatalogoMaestro/491_GPC_valoracixn_geronto-geriatrica/IMSS-491-11-GRR_Valoracixn_geronto_geriatrica.pdf',
+        'CENETEC (2011). Guía de práctica clínica de valoración geronto-geriátrica integral en el adulto mayor ambulatorio.',
     },
     {
       referencia:
